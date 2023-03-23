@@ -59,8 +59,6 @@ const styles = StyleSheet.create({
 const PressableContainer = ({ children, stackName, pop }) => {
     const navigation = useNavigation();
     const route = useRoute();
-
-    console.log(stackName);
     return (
         <View style={[styles.boxContainer]}>
             <Pressable
