@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 40,
     },
     text: {
-        fontWeight: "bold",
+        fontFamily: "Poppins_700Bold",
     },
 });
