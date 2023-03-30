@@ -5,9 +5,11 @@ import { Layout } from "../components/Layout";
 export default function Rocket() {
     return (
         <Layout>
-            <Text>Rocket</Text>
+            <Text style={styles.text}>Rocket Screen</Text>
         </Layout>
     );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({text: {
+    fontFamily: "Poppins_400Regular",
+},});

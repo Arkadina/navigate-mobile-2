@@ -7,7 +7,6 @@ import { AntDesign } from "@expo/vector-icons";
 const Header = () => {
     const navigate = useNavigation();
     const route = useRoute();
-    console.log(navigate.canGoBack());
 
     return (
         <View style={styles.container}>

@@ -5,9 +5,13 @@ import { Layout } from "../components/Layout";
 export default function Chart() {
     return (
         <Layout>
-            <Text>Chart</Text>
+            <Text style={styles.text}>Chart</Text>
         </Layout>
     );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    text: {
+        fontFamily: "Poppins_400Regular",
+    },
+});

@@ -4,8 +4,6 @@ import { Dimensions } from "react-native";
 
 import { AntDesign } from "@expo/vector-icons";
 
-// import getRoutes from "../utils/getRoutes";
-
 function Footer() {
     return (
         <View style={styles.footer}>
@@ -32,6 +30,8 @@ const styles = StyleSheet.create({
         alignItems: "stretch",
         width: Dimensions.get("window").width,
         height: 55,
+        paddingHorizontal: 35,
+        marginBottom: 20,
     },
     footerText: {
         fontWeight: "bold",

@@ -58,14 +58,7 @@ export default function App() {
     }
 }
 
-const styles = StyleSheet.create({
-    container: {
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center",
-        fontFamily: "Inter_900Black",
-    },
-});
+
 
 const horizontalAnimation = {
     gestureDirection: "horizontal",

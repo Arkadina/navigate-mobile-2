@@ -5,9 +5,13 @@ import { Layout } from "../components/Layout";
 export default function Key() {
     return (
         <Layout>
-            <Text>Key</Text>
+            <Text style={styles.text}>Key Screen</Text>
         </Layout>
     );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    text: {
+        fontFamily: "Poppins_400Regular",
+    },
+});
